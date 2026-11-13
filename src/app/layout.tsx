@@ -14,6 +14,10 @@ export const metadata: Metadata = {
     template: "%s | AI Pulse",
   },
   description: "Practical AI tools, digital hustles, and ideas for working smarter.",
+  // Google Search Console Verification Meta Tag added here:
+  verification: {
+    google: "tkRWUp3jua_pk53ndf_Xyoh3JztgfRn0Z1E3yCKFwRs",
+  },
 };
 
 export default function RootLayout({
