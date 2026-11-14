@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
 import "./globals.css";
@@ -31,6 +32,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Analytics />
         {adsenseClient ? (
           <Script
             async
